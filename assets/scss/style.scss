@@ -1,2 +1,10 @@
+//fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap');
+//config
+@import "./variaveis.scss";
+@import "./config.scss";
+//components
+@import "header.scss";
+@import "nav-produtos.scss";
+//framework
 @import './bootstrap.scss';
