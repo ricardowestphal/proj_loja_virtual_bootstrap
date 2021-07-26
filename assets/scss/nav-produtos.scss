@@ -1,17 +1,17 @@
 nav.nav-produtos {
     background: $cor-secundaria;
     color: $branco;
-    ul.nav {
+    a {
+        color: $branco;
+    }
+    &:hov ul.nav {
         li {
             position: relative;
             padding: 10px;
             svg {
                 margin-right: 10px;
             }
-            a {
-                color: #fff;
-            }
-            &:hover {
+            er {
                 background: darken($color: $cor-secundaria, $amount: 30);
                 ul.nav {
                     display: block;
