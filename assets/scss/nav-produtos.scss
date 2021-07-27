@@ -4,14 +4,14 @@ nav.nav-produtos {
     a {
         color: $branco;
     }
-    &:hov ul.nav {
+    ul.nav {
         li {
             position: relative;
             padding: 10px;
             svg {
                 margin-right: 10px;
             }
-            er {
+            &:hover {
                 background: darken($color: $cor-secundaria, $amount: 30);
                 ul.nav {
                     display: block;
