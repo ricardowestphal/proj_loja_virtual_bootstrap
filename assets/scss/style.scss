@@ -7,7 +7,12 @@
 @import "./nav-produtos.scss";
 @import "./banner-promocionais-statico.scss";
 @import "./produtos.scss";
+@import"./footer.scss";
+@import"./produtos-compra.scss";
+@import"./responsive.scss";
 //framework
 @import './bootstrap.scss';
+//components Bootstrap
+@import"./breadcrumb.scss";
 //config
 @import "./config.scss";

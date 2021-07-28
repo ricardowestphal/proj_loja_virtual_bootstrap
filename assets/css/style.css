@@ -47,20 +47,20 @@ nav.nav-produtos {
 nav.nav-produtos a {
   color: #fff;
 }
-nav.nav-produtos:hov ul.nav li {
+nav.nav-produtos ul.nav li {
   position: relative;
   padding: 10px;
 }
-nav.nav-produtos:hov ul.nav li svg {
+nav.nav-produtos ul.nav li svg {
   margin-right: 10px;
 }
-nav.nav-produtos:hov ul.nav li er {
+nav.nav-produtos ul.nav li:hover {
   background: black;
 }
-nav.nav-produtos:hov ul.nav li er ul.nav {
+nav.nav-produtos ul.nav li:hover ul.nav {
   display: block;
 }
-nav.nav-produtos:hov ul.nav li ul.nav {
+nav.nav-produtos ul.nav li ul.nav {
   z-index: 999;
   display: none;
   position: absolute;
@@ -70,7 +70,7 @@ nav.nav-produtos:hov ul.nav li ul.nav {
   border-top: solid #FFC107 10px;
   width: 100%;
 }
-nav.nav-produtos:hov ul.nav li ul.nav li {
+nav.nav-produtos ul.nav li ul.nav li {
   padding: 10px 25px;
 }
 
@@ -111,6 +111,100 @@ nav.nav-produtos:hov ul.nav li ul.nav li {
   font-weight: bold;
 }
 
+.produtos {
+  margin: 30px 0;
+}
+.produtos .produtos-container {
+  margin: 30px 0;
+}
+.produtos .produtos-container .produtos-itens {
+  color: #343A40;
+}
+.produtos .produtos-container .produtos-itens h2 {
+  font-size: 19px;
+  margin: 10px 0 0;
+}
+.produtos .produtos-container .produtos-itens .produtos-stars svg {
+  color: #FFC107;
+}
+.produtos .produtos-container .produtos-itens .produtos-preco {
+  font-size: 16px;
+}
+
+footer {
+  background: #343A40;
+  padding: 25px 0;
+  color: #fff;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+}
+footer h4 {
+  color: #FFC107;
+  font-size: 19px;
+}
+footer ul li.ellipsis {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo h1 {
+  margin: 0;
+  font: size 32px;
+}
+.produtos-compra .produtos-conteudo p {
+  font-size: 16px;
+}
+.produtos-compra .produtos-preco .produtos-stars svg {
+  fill: #FFC107;
+}
+.produtos-compra .produtos-preco strong {
+  font-size: 40px;
+}
+.produtos-compra .produtos-preco form {
+  font-weight: 100%;
+}
+.produtos-compra .produtos-preco form label {
+  margin: 0;
+}
+.produtos-compra .produtos-preco .produtos-stars svg,
+.produtos-compra .produtos-preco strong span,
+.produtos-compra .produtos-preco form {
+  font-size: 16px;
+}
+
+@media (max-width: 375px) {
+  .banners-promocionais-statico .banners-promocionais-statico-12x p,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 767px) {
+  header form {
+    margin: 20px;
+  }
+
+  #banners-promocionais {
+    display: none;
+  }
+
+  .produtos-container img {
+    width: 100%;
+  }
+}
+@media (max-width: 991px) {
+  header ul li {
+    margin: 7px 0px;
+  }
+}
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10460,12 +10554,34 @@ a.text-dark:focus, a.text-dark:hover {
   }
 }
 /*# sourceMappingURL=bootstrap.min.css.map */
+.breadcrumb {
+  background: initial;
+  margin: 40px 0;
+  padding: 0;
+}
+.breadcrumb a {
+  color: #ff0f9a;
+}
+
 body {
   color: #343A40;
 }
 
 a {
   text-decoration: none !important;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: bold;
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
