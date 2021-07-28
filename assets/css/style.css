@@ -153,6 +153,34 @@ footer ul li.ellipsis {
   white-space: nowrap;
 }
 
+.produtos-compra figure {
+  margin: 0;
+}
+.produtos-compra .produtos-conteudo h1 {
+  margin: 0;
+  font: size 32px;
+}
+.produtos-compra .produtos-conteudo p {
+  font-size: 16px;
+}
+.produtos-compra .produtos-preco .produtos-stars svg {
+  fill: #FFC107;
+}
+.produtos-compra .produtos-preco strong {
+  font-size: 40px;
+}
+.produtos-compra .produtos-preco form {
+  font-weight: 100%;
+}
+.produtos-compra .produtos-preco form label {
+  margin: 0;
+}
+.produtos-compra .produtos-preco .produtos-stars svg,
+.produtos-compra .produtos-preco strong span,
+.produtos-compra .produtos-preco form {
+  font-size: 16px;
+}
+
 @media (max-width: 375px) {
   .banners-promocionais-statico .banners-promocionais-statico-12x p,
 .banners-promocionais-statico .banners-promocionais-statico-todo-br p {
